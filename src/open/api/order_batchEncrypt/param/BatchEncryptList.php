@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\order_batchEncrypt\param;
 
 //auto generated code
 class BatchEncryptList
