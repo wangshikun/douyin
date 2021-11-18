@@ -1,5 +1,9 @@
 <?php
+namespace ytk\open\api\alliance_instituteColonelActivityOperate;
 
+
+use ytk\open\core\GlobalConfig;
+use ytk\open\core\DoudianOpClient;
 //auto generated code
 class AllianceInstituteColonelActivityOperateRequest
 {
