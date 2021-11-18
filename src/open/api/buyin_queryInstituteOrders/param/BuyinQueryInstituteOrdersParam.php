@@ -4,16 +4,16 @@
 class BuyinQueryInstituteOrdersParam
 {
 
-	public $size;
+    public $size;
 
-	public $cursor;
+    public $cursor;
 
-	public $start_time;
+    public $start_time;
 
-	public $end_time;
+    public $end_time;
 
-	public $source_type;
+    public $source_type;
 
-	public $order_ids;
+    public $order_ids;
 
 }

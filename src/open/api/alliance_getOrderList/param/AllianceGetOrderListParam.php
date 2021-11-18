@@ -4,6 +4,6 @@
 class AllianceGetOrderListParam
 {
 
-	public $order_ids;
+    public $order_ids;
 
 }

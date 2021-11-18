@@ -1,5 +1,7 @@
 <?php
 
+namespace ytk\open\core;
+
 class GlobalConfig extends DoudianOpConfig
 {
 

@@ -4,8 +4,8 @@
 class PidInfo
 {
 
-	public $pid;
+    public $pid;
 
-	public $external_info;
+    public $external_info;
 
 }

@@ -4,16 +4,16 @@
 class AllianceColonelActivityProductParam
 {
 
-	public $activity_type;
+    public $activity_type;
 
-	public $activity_id;
+    public $activity_id;
 
-	public $search_type;
+    public $search_type;
 
-	public $sort_type;
+    public $sort_type;
 
-	public $page;
+    public $page;
 
-	public $count;
+    public $count;
 
 }

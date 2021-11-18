@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\core;
 
 class AccessToken
 {

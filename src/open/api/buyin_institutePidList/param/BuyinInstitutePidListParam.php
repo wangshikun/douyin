@@ -4,12 +4,12 @@
 class BuyinInstitutePidListParam
 {
 
-	public $page;
+    public $page;
 
-	public $page_size;
+    public $page_size;
 
-	public $media_type;
+    public $media_type;
 
-	public $pid;
+    public $pid;
 
 }

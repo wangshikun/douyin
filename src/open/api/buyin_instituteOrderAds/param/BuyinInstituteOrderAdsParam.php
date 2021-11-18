@@ -4,20 +4,20 @@
 class BuyinInstituteOrderAdsParam
 {
 
-	public $size;
+    public $size;
 
-	public $cursor;
+    public $cursor;
 
-	public $start_time;
+    public $start_time;
 
-	public $end_time;
+    public $end_time;
 
-	public $order_ids;
+    public $order_ids;
 
-	public $pid;
+    public $pid;
 
-	public $distribution_type;
+    public $distribution_type;
 
-	public $open_id;
+    public $open_id;
 
 }

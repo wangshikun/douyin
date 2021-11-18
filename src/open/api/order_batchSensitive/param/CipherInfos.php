@@ -4,8 +4,8 @@
 class CipherInfos
 {
 
-	public $auth_id;
+    public $auth_id;
 
-	public $cipher_text;
+    public $cipher_text;
 
 }

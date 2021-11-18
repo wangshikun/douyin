@@ -4,8 +4,8 @@
 class AllianceInstituteColonelActivityOperateParam
 {
 
-	public $activity_id;
+    public $activity_id;
 
-	public $operation;
+    public $operation;
 
 }

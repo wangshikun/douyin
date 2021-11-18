@@ -4,46 +4,46 @@
 class AllianceColonelActivityCreateOrUpdateParam
 {
 
-	public $activity_id;
+    public $activity_id;
 
-	public $application_limited;
+    public $application_limited;
 
-	public $is_new_shop;
+    public $is_new_shop;
 
-	public $shop_type;
+    public $shop_type;
 
-	public $activity_name;
+    public $activity_name;
 
-	public $activity_desc;
+    public $activity_desc;
 
-	public $apply_start_time;
+    public $apply_start_time;
 
-	public $apply_end_time;
+    public $apply_end_time;
 
-	public $promote_start_time;
+    public $promote_start_time;
 
-	public $promote_end_time;
+    public $promote_end_time;
 
-	public $commission_rate;
+    public $commission_rate;
 
-	public $service_rate;
+    public $service_rate;
 
-	public $wechat_id;
+    public $wechat_id;
 
-	public $phone_num;
+    public $phone_num;
 
-	public $estimated_single_sale;
+    public $estimated_single_sale;
 
-	public $activity_type;
+    public $activity_type;
 
-	public $specified_shop_ids;
+    public $specified_shop_ids;
 
-	public $online;
+    public $online;
 
-	public $categories;
+    public $categories;
 
-	public $shop_score;
+    public $shop_score;
 
-	public $activity_kind;
+    public $activity_kind;
 
 }

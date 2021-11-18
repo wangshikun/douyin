@@ -4,14 +4,14 @@
 class AllianceColonelActivityProductAuditParam
 {
 
-	public $activity_id;
+    public $activity_id;
 
-	public $apply_ids;
+    public $apply_ids;
 
-	public $operation;
+    public $operation;
 
-	public $repeat_apply;
+    public $repeat_apply;
 
-	public $suggest_info;
+    public $suggest_info;
 
 }

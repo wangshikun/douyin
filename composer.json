@@ -2,7 +2,9 @@
   "name": "ytk/douyin",
   "description": "这是一个抖音的sdk",
   "require": {
-    "php" : ">=7.0"
+    "php" : ">=7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
   },
   "license": "Apache-2.0",
   "authors": [
@@ -11,6 +13,8 @@
     }
   ],
   "autoload": {
-    "files": ["src/autoload.php"]
+    "psr-4": {
+      "ytk\\": "src"
+    }
   }
 }

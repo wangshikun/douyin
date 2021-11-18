@@ -4,8 +4,8 @@
 class OrderGetSearchIndexParam
 {
 
-	public $plain_text;
+    public $plain_text;
 
-	public $sensitive_type;
+    public $sensitive_type;
 
 }

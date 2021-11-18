@@ -4,6 +4,6 @@
 class OrderBatchSensitiveParam
 {
 
-	public $cipher_infos;
+    public $cipher_infos;
 
 }

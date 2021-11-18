@@ -4,6 +4,6 @@
 class AllianceMaterialsProductCategoryParam
 {
 
-	public $parent_id;
+    public $parent_id;
 
 }

@@ -4,8 +4,8 @@
 class BuyinCreateOrUpdateOrienPlanParam
 {
 
-	public $is_create;
+    public $is_create;
 
-	public $plan;
+    public $plan;
 
 }

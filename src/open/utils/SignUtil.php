@@ -1,5 +1,7 @@
 <?php
 
+namespace ytk\open\utils;
+
 class SignUtil
 {
     public static function sign($appKey, $appSecret, $method, $timestamp, $paramJson)

@@ -4,14 +4,14 @@
 class AllianceInstituteColonelActivityListParam
 {
 
-	public $status;
+    public $status;
 
-	public $search_type;
+    public $search_type;
 
-	public $sort_type;
+    public $sort_type;
 
-	public $page;
+    public $page;
 
-	public $page_size;
+    public $page_size;
 
 }

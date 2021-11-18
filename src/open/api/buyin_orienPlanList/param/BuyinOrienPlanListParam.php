@@ -4,14 +4,14 @@
 class BuyinOrienPlanListParam
 {
 
-	public $page;
+    public $page;
 
-	public $page_size;
+    public $page_size;
 
-	public $product_id;
+    public $product_id;
 
-	public $product_name;
+    public $product_name;
 
-	public $orien_plan_id;
+    public $orien_plan_id;
 
 }

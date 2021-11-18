@@ -4,8 +4,8 @@
 class BuyinInstituteLiveShareParam
 {
 
-	public $pid_info;
+    public $pid_info;
 
-	public $open_id;
+    public $open_id;
 
 }

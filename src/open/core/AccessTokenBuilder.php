@@ -1,4 +1,10 @@
 <?php
+namespace ytk\open\core;
+
+use ytk\open\api\token\CreateTokenRequest;
+use ytk\open\api\token\RefreshTokenRequest;
+use ytk\open\api\token\param\CreateTokenParam;
+use ytk\open\api\token\param\RefreshTokenParam;
 
 class AccessTokenBuilder
 {

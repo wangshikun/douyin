@@ -4,36 +4,36 @@
 class AllianceMaterialsProductsSearchParam
 {
 
-	public $title;
+    public $title;
 
-	public $first_cids;
+    public $first_cids;
 
-	public $second_cids;
+    public $second_cids;
 
-	public $third_cids;
+    public $third_cids;
 
-	public $price_min;
+    public $price_min;
 
-	public $price_max;
+    public $price_max;
 
-	public $sell_num_min;
+    public $sell_num_min;
 
-	public $sell_num_max;
+    public $sell_num_max;
 
-	public $cos_fee_min;
+    public $cos_fee_min;
 
-	public $cos_fee_max;
+    public $cos_fee_max;
 
-	public $cos_ratio_min;
+    public $cos_ratio_min;
 
-	public $cos_ratio_max;
+    public $cos_ratio_max;
 
-	public $page;
+    public $page;
 
-	public $page_size;
+    public $page_size;
 
-	public $search_type;
+    public $search_type;
 
-	public $sort_type;
+    public $sort_type;
 
 }

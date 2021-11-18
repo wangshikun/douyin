@@ -4,8 +4,8 @@
 class BuyinOrienPlanCtrlParam
 {
 
-	public $orien_plan_id;
+    public $orien_plan_id;
 
-	public $action;
+    public $action;
 
 }

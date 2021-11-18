@@ -4,12 +4,12 @@
 class BuyinInstitutePidCreateParam
 {
 
-	public $media_type;
+    public $media_type;
 
-	public $media_name;
+    public $media_name;
 
-	public $media_id;
+    public $media_id;
 
-	public $site_name;
+    public $site_name;
 
 }

@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\token;
 
 class RefreshTokenRequest
 {
@@ -8,36 +9,41 @@ class RefreshTokenRequest
 
     private $config;
 
+    public function __construct()
+    {
+        $this->config = GlobalConfig::getGlobalConfig();
+        $this->param = new CreateTokenParam();
+    }
+
     public function getParam()
     {
         return $this->param;
     }
+
+    //通用方法
 
     public function setParam($param)
     {
         $this->param = $param;
     }
 
-    //通用方法
-    public function getUrlPath() {
+    public function getUrlPath()
+    {
         return "/token/refresh";
     }
 
-    public function setConfig($config) {
-        $this->config = $config;
-    }
-
-    public function getConfig() {
+    public function getConfig()
+    {
         return $this->config;
     }
 
-    public function execute($accessToken) {
-        return DoudianOpClient::getInstance()->request($this, $accessToken);
+    public function setConfig($config)
+    {
+        $this->config = $config;
     }
 
-    public function __construct()
+    public function execute($accessToken)
     {
-        $this->config = GlobalConfig::getGlobalConfig();
-        $this->param = new CreateTokenParam();
+        return DoudianOpClient::getInstance()->request($this, $accessToken);
     }
 }

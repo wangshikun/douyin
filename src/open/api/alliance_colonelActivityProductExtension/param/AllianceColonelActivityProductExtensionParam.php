@@ -4,10 +4,10 @@
 class AllianceColonelActivityProductExtensionParam
 {
 
-	public $activity_id;
+    public $activity_id;
 
-	public $product_ids;
+    public $product_ids;
 
-	public $extend_time;
+    public $extend_time;
 
 }

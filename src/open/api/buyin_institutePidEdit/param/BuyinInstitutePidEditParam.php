@@ -4,8 +4,8 @@
 class BuyinInstitutePidEditParam
 {
 
-	public $pid;
+    public $pid;
 
-	public $site_name;
+    public $site_name;
 
 }

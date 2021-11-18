@@ -4,20 +4,20 @@
 class Plan
 {
 
-	public $orien_plan_id;
+    public $orien_plan_id;
 
-	public $product_id;
+    public $product_id;
 
-	public $cos_ratio;
+    public $cos_ratio;
 
-	public $apply_type;
+    public $apply_type;
 
-	public $restricted_type;
+    public $restricted_type;
 
-	public $author_level;
+    public $author_level;
 
-	public $audit_type;
+    public $audit_type;
 
-	public $end_time;
+    public $end_time;
 
 }

@@ -4,6 +4,6 @@
 class AllianceMaterialsProductsDetailsParam
 {
 
-	public $product_ids;
+    public $product_ids;
 
 }

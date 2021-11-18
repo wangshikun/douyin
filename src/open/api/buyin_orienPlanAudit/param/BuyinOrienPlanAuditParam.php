@@ -4,8 +4,8 @@
 class BuyinOrienPlanAuditParam
 {
 
-	public $audit_action;
+    public $audit_action;
 
-	public $apply_id;
+    public $apply_id;
 
 }

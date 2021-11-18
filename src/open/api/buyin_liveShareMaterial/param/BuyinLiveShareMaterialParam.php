@@ -4,20 +4,20 @@
 class BuyinLiveShareMaterialParam
 {
 
-	public $author_type;
+    public $author_type;
 
-	public $author_levels;
+    public $author_levels;
 
-	public $frist_cids;
+    public $frist_cids;
 
-	public $author_info;
+    public $author_info;
 
-	public $page;
+    public $page;
 
-	public $page_size;
+    public $page_size;
 
-	public $sort_by;
+    public $sort_by;
 
-	public $sort_type;
+    public $sort_type;
 
 }

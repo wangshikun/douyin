@@ -4,6 +4,6 @@
 class BuyinInstitutePidDelParam
 {
 
-	public $pids;
+    public $pids;
 
 }

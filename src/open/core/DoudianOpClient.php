@@ -1,4 +1,8 @@
 <?php
+namespace ytk\open\core;
+
+use ytk\open\utils\SignUtil;
+use ytk\open\api\token\data\http\http\http\HttpClient;
 
 class DoudianOpClient
 {

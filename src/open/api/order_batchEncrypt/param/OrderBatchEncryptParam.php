@@ -4,8 +4,8 @@
 class OrderBatchEncryptParam
 {
 
-	public $batch_encrypt_list;
+    public $batch_encrypt_list;
 
-	public $sensitive_scene;
+    public $sensitive_scene;
 
 }
