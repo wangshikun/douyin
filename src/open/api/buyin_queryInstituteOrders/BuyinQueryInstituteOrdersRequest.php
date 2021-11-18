@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\buyin_queryInstituteOrders;
+namespace ytk\open\command\open\api\buyin_queryInstituteOrders;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

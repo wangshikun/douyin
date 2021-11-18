@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\order_getSearchIndex;
+namespace ytk\open\command\open\api\order_getSearchIndex;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

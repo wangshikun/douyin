@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\buyin_orienPlanAuthorsAdd\param;
+namespace ytk\open\command\open\api\buyin_orienPlanAuthorsAdd\param;
 
 //auto generated code
 class BuyinOrienPlanAuthorsAddParam

@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\token\data\http;
+namespace ytk\open\core\http;
 
 class HttpResponse
 {

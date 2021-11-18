@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\order_batchSensitive;
+namespace ytk\open\command\open\api\order_batchSensitive;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\alliance_instituteColonelActivityOperate\param;
+namespace ytk\open\command\open\api\alliance_instituteColonelActivityOperate\param;
 
 //auto generated code
 class AllianceInstituteColonelActivityOperateParam

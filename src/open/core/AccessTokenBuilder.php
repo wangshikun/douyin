@@ -1,10 +1,8 @@
 <?php
 namespace ytk\open\core;
 
-use ytk\open\api\token\CreateTokenRequest;
-use ytk\open\api\token\RefreshTokenRequest;
-use ytk\open\api\alliance_activityProductCategoryList\CreateTokenParam;
-use ytk\open\api\alliance_activityProductCategoryList\RefreshTokenParam;
+
+use ytk\open\command\open\api\token\CreateTokenRequest;
 
 class AccessTokenBuilder
 {

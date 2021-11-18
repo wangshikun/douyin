@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\alliance_materialsProductCategory\param;
+namespace ytk\open\api\alliance_colonelActivityProductExtension\param;
 
 //auto generated code
 class AllianceColonelActivityProductExtensionParam

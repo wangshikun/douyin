@@ -1,10 +1,10 @@
 <?php
-namespace ytk\open\api\token\data\http\http\http;
+namespace ytk\open\core\http;
 
 class HttpClient
 {
     /**
-     * @throws Exception
+     * @throws \Exception
      */
     public function post($httpRequest){
         $data  = $httpRequest->body;
@@ -27,7 +27,7 @@ class HttpClient
         $httpResponse = new HttpResponse();
         if (curl_errno($curl))
         {
-            throw new Exception(curl_error($curl),0);
+            throw new \Exception(curl_error($curl),0);
         }
         else
         {

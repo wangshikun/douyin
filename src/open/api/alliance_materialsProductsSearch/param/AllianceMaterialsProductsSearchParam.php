@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\alliance_materialsProductsSearch\param;
+namespace ytk\open\command\open\api\alliance_materialsProductsSearch\param;
 //auto generated code
 class AllianceMaterialsProductsSearchParam
 {

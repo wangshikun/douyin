@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\buyin_institutePidCreate;
+namespace ytk\open\command\open\api\buyin_institutePidCreate;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

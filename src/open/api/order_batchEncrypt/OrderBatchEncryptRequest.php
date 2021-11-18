@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\order_batchEncrypt;
+namespace ytk\open\command\open\api\order_batchEncrypt;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

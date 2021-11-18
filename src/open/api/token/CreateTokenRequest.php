@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\api\token;
+namespace ytk\open\command\open\api\token;
 
 class CreateTokenRequest
 {
