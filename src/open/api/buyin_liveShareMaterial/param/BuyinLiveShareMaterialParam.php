@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\buyin_liveShareMaterial\param;
 
 //auto generated code
 class BuyinLiveShareMaterialParam

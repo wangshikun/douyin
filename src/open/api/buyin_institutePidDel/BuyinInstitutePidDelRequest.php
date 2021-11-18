@@ -1,7 +1,9 @@
 <?php
+namespace ytk\open\api\buyin_institutePidDel;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;
+
 //auto generated code
 class BuyinInstitutePidDelRequest
 {

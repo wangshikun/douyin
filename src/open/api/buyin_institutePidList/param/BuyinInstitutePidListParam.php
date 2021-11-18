@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\buyin_institutePidList\param;
 
 //auto generated code
 class BuyinInstitutePidListParam
