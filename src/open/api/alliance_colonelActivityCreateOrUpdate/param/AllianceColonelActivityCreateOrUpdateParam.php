@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\alliance_colonelActivityCreateOrUpdate\param;
 
 //auto generated code
 class AllianceColonelActivityCreateOrUpdateParam

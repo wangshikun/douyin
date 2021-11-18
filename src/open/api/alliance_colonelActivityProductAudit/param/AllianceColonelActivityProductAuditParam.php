@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\alliance_colonelActivityProductAudit\param;
 
 //auto generated code
 class AllianceColonelActivityProductAuditParam

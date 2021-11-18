@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\alliance_instituteColonelActivityList\param;
 
 //auto generated code
 class AllianceInstituteColonelActivityListParam

@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\alliance_getOrderList\param;
 
 //auto generated code
 class AllianceColonelActivityProductExtensionParam

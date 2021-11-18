@@ -1,6 +1,10 @@
 <?php
+namespace ytk\open\api\alliance_activityProductCategoryList;
 
 //auto generated code
+use ytk\open\core\GlobalConfig;
+use ytk\open\core\DoudianOpClient;
+
 class AllianceActivityProductCategoryListRequest
 {
 
