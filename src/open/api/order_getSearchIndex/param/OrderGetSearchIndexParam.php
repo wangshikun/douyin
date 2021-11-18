@@ -1,4 +1,5 @@
 <?php
+namespace ytk\open\api\order_getSearchIndex\param;
 
 //auto generated code
 class OrderGetSearchIndexParam
