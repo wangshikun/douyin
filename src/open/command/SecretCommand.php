@@ -9,7 +9,7 @@ use think\console\Output;
 
 class SecretCommand extends \think\console\Command
 {
-    public function configure()
+ /*   public function configure()
     {
         $this->setName('dy:create')
             ->setDescription('create dy_sdk secret and create config file');
@@ -56,5 +56,5 @@ class SecretCommand extends \think\console\Command
         } else {
             $output->writeln('Create config file error');
         }
-    }
+    }*/
 }

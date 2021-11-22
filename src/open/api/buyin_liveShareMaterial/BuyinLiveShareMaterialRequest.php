@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\buyin_liveShareMaterial;
+namespace ytk\open\api\buyin_liveShareMaterial;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

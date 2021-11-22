@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\order_getSearchIndex\param;
+namespace ytk\open\api\order_getSearchIndex\param;
 
 //auto generated code
 class OrderGetSearchIndexParam

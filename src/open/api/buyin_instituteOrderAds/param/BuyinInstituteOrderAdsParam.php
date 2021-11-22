@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\buyin_instituteOrderAds\param;
+namespace ytk\open\api\buyin_instituteOrderAds\param;
 //auto generated code
 class BuyinInstituteOrderAdsParam
 {

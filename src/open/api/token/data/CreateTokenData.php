@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\token\data;
+namespace ytk\open\api\token\data;
 
 class CreateTokenData
 {

@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\buyin_orienPlanList;
+namespace ytk\open\api\buyin_orienPlanList;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;

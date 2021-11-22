@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\buyin_institutePidCreate\param;
+namespace ytk\open\api\buyin_institutePidCreate\param;
 //auto generated code
 class BuyinInstitutePidCreateParam
 {

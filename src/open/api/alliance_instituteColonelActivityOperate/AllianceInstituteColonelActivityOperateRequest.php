@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\alliance_instituteColonelActivityOperate;
+namespace ytk\open\api\alliance_instituteColonelActivityOperate;
 
 
 use ytk\open\core\GlobalConfig;

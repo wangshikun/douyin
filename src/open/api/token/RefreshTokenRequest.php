@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\token;
+namespace ytk\open\api\token;
 
 class RefreshTokenRequest
 {

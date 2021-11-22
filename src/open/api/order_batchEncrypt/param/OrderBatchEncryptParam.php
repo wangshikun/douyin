@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\order_batchSensitive\param\param;
+namespace ytk\open\api\order_batchSensitive\param\param;
 
 //auto generated code
 class OrderBatchEncryptParam

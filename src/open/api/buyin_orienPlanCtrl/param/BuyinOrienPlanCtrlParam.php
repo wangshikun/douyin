@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\buyin_orienPlanCtrl\param;
+namespace ytk\open\api\buyin_orienPlanCtrl\param;
 
 //auto generated code
 class BuyinOrienPlanCtrlParam

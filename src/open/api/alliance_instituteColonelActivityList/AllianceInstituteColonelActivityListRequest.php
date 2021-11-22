@@ -1,5 +1,5 @@
 <?php
-namespace ytk\open\command\open\api\alliance_instituteColonelActivityList;
+namespace ytk\open\api\alliance_instituteColonelActivityList;
 
 use ytk\open\core\GlobalConfig;
 use ytk\open\core\DoudianOpClient;
