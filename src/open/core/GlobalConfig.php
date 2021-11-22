@@ -11,13 +11,13 @@ class GlobalConfig extends DoudianOpConfig
     private static $instance;
 
     private function __construct(){
-        $config        = require __DIR__.'/../../config/config.php';
+        $config        = require __DIR__.'/../config/config.php';
         if (strpos(App::VERSION, '6.0') !== false) {
             $this->config = array_merge($config, Config::get('dk') ?? []);
         } else {
             $this->config = array_merge($config, Config::get('dk.') ?? []);
         }
-        $this->appKey=$this->config['appkey'];
+        $this->appKey=$this->config['appKey'];
         $this->appSecret=$this->config['appSecret'];
         $this->httpConnectTimeout=!empty($this->config['httpConnectTimeout'])?$this->config['httpConnectTimeout']:1000;
         $this->httpReadTimeout=!empty($this->config['httpReadTimeout'])?$this->config['httpReadTimeout']:5000;
