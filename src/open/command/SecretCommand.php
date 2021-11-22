@@ -21,7 +21,7 @@ class SecretCommand extends \think\console\Command
         if (file_exists($path)
             && strpos(file_get_contents($path), '[DY_SDK]')
         ) {
-            $output->writeln('JWT_SECRET is exists');
+            $output->writeln('DY_SDK is exists');
         } else {
             file_put_contents(
                 $path,
