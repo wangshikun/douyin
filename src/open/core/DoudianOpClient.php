@@ -3,6 +3,7 @@ namespace ytk\open\core;
 
 use ytk\open\utils\SignUtil;
 use ytk\open\core\http\HttpClient;
+use ytk\open\core\http\HttpRequest;
 
 class DoudianOpClient
 {
