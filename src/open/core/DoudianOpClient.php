@@ -22,11 +22,7 @@ class DoudianOpClient
         $timestamp = time();
         $sign = SignUtil::sign($appKey, $appSecret, $method, $timestamp, $paramJson);
         $openHost = $config->openRequestUrl;
-        $accessTokenStr = "";
-        if($accessToken != null) {
-            $accessTokenStr = $accessToken->getAccessToken();
-        }
-
+        $accessTokenStr =$accessToken;
         //String requestUrlPattern = "%s/%s?app_key=%s&method=%s&v=2&sign=%s&timestamp=%s&access_token=%s";
         $requestUrl = $openHost.$urlPath."?"."app_key=".$appKey."&method=".$method."&v=2&sign=".$sign."&timestamp=".$timestamp."&access_token=".$accessTokenStr."&sign_method=hmac-sha256";
 
