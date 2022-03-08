@@ -39,6 +39,7 @@ class BuyinColonelActivityDetailRequest
 		return "/buyin/colonelActivityDetail";
 	}
 
+
 	public function execute($accessToken)
 	{
 		return DoudianOpClient::getInstance()->request($this, $accessToken);
