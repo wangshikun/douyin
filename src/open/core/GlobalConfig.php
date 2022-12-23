@@ -10,12 +10,12 @@ class GlobalConfig extends DoudianOpConfig
     protected $config;
     private static $instance;
 
-    private function __construct(){
+    private function __construct($dk_name){
         $config        = require __DIR__.'/../config/config.php';
         if (strpos(App::VERSION, '6.0') !== false) {
-            $this->config = array_merge($config, Config::get('dk') ?? []);
+            $this->config = array_merge($config, Config::get("$dk_name") ?? []);
         } else {
-            $this->config = array_merge($config, Config::get('dk.') ?? []);
+            $this->config = array_merge($config, Config::get("$dk_name.") ?? []);
         }
         $this->appKey=$this->config['appKey'];
         $this->appSecret=$this->config['appSecret'];
@@ -24,10 +24,9 @@ class GlobalConfig extends DoudianOpConfig
         $this->openRequestUrl=!empty($this->config['openRequestUrl'])?$this->config['openRequestUrl']:"https://openapi-fxg.jinritemai.com";
     }
 
-    public static function getGlobalConfig(){
-
+    public static function getGlobalConfig($dk_name='dk'){
         if(!(self::$instance instanceof self)){
-            self::$instance = new self();
+            self::$instance = new self($dk_name);
         }
         return self::$instance;
     }

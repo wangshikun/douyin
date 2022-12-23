@@ -1,5 +1,8 @@
 <?php
+	namespace ytk\open\api\buyin_instituteOrderMCN;
 
+	use ytk\open\core\GlobalConfig;
+	use ytk\open\core\DoudianOpClient;
 //auto generated code
 class BuyinInstituteOrderMCNRequest
 {

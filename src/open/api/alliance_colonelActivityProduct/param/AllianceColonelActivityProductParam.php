@@ -16,5 +16,13 @@ class AllianceColonelActivityProductParam
     public $page;
 
     public $count;
+	
+	public $cooperation_info;
+
+	public $cooperation_type;
+
+	public $product_info;
+
+	public $status;
 
 }

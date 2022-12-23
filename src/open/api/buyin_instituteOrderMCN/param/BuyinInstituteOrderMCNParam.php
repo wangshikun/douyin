@@ -1,4 +1,5 @@
 <?php
+	namespace ytk\open\api\buyin_instituteOrderMCN\param;
 
 //auto generated code
 class BuyinInstituteOrderMCNParam
