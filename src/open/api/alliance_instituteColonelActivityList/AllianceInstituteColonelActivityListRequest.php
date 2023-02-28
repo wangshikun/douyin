@@ -1,8 +1,8 @@
 <?php
 namespace ytk\open\api\alliance_instituteColonelActivityList;
 
-use ytk\open\core\GlobalConfig;
-use ytk\open\core\DoudianOpClient;
+use ytk\open\cored\GlobalConfig;
+use ytk\open\cored\DoudianOpClient;
 
 //auto generated code
 class AllianceInstituteColonelActivityListRequest

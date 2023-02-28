@@ -1,8 +1,8 @@
 <?php
 namespace ytk\open\api\token;
 
-use ytk\open\core\GlobalConfig;
-use ytk\open\core\DoudianOpClient;
+use ytk\open\cored\GlobalConfig;
+use ytk\open\cored\DoudianOpClient;
 use ytk\open\api\token\param\CreateTokenParam;
 
 class CreateTokenRequest

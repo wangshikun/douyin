@@ -1,7 +1,7 @@
 <?php
 namespace ytk\open\api\buyin_instituteLiveShare;
-use ytk\open\core\GlobalConfig;
-use ytk\open\core\DoudianOpClient;
+use ytk\open\cored\GlobalConfig;
+use ytk\open\cored\DoudianOpClient;
 
 //auto generated code
 class BuyinInstituteLiveShareRequest

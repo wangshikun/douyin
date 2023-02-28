@@ -1,8 +1,8 @@
 <?php
 	
 	namespace ytk\open\api\buyin_activityProductList;
-	use ytk\open\core\GlobalConfig;
-	use ytk\open\core\DoudianOpClient;
+	use ytk\open\cored\GlobalConfig;
+	use ytk\open\cored\DoudianOpClient;
 //接口用于一级团长查询自身提报了二级团长的商品及商品审核状态
 class BuyinActivityProductListRequest
 {

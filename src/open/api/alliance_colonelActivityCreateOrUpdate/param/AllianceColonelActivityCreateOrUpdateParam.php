@@ -43,7 +43,7 @@ class AllianceColonelActivityCreateOrUpdateParam
 
     public $categories;
 
-    public $shop_score;
+    public $shop_scored;
 
     public $activity_kind;
 

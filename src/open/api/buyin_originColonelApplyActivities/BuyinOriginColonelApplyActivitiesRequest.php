@@ -1,8 +1,8 @@
 <?php
 namespace ytk\open\api\buyin_originColonelApplyActivities;
 
-use ytk\open\core\GlobalConfig;
-use ytk\open\core\DoudianOpClient;
+use ytk\open\cored\GlobalConfig;
+use ytk\open\cored\DoudianOpClient;
 //团长报名二级团长活动
 class BuyinOriginColonelApplyActivitiesRequest
 {
